@@ -26,4 +26,5 @@ function submitForm(event) {
   event.preventDefault();
   localStorage.clear();
   event.target.reset();
+  data = {};
 }
